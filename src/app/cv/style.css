@@ -1,0 +1,81 @@
+.cv_container {
+  z-index: 20;
+  position: relative;
+  /* width: calc(100% - 16%); */
+  /* max-width: 700px; */
+  margin: 0px auto;
+  padding: 190px 0;
+  padding-bottom: 50px;
+  gap: 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.cv_container h1 {
+  font-family: var(--font-acorn);
+  font-size: 50px;
+  color: var(--txt1);
+}
+
+.cv_container p {
+  line-height: 1.4;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 0px 20px;
+}
+
+.frame_container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+iframe {
+  position: relative;
+  min-width: 838px;
+  height: 1180px;
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 2;
+  border: 1px solid var(--card-bd);
+  background-color: var(--card-bg);
+}
+
+@media screen and (max-width: 900px) {
+  .cv_container {
+    padding-top: 120px;
+  }
+  iframe {
+    min-width: auto;
+    min-width: calc(100% - 10%);
+    height: 100vw;
+    margin: 0px auto;
+  }
+  .cv_container h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cv_container {
+    padding-top: 120px;
+  }
+  .cv_container h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cv_container {
+    padding-top: 100px;
+  }
+  .cv_container h1 {
+    font-size: 35px;
+  }
+  .cv_container p {
+    font-size: 18px;
+  }
+}
