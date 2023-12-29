@@ -25,27 +25,27 @@ function About() {
         <div className="box"></div>
       </div>
       <nav className="blur">
-          <ul>
-            <li>
-              <Link className="active" href="/">
-                Works
-              </Link>
-            </li>
-            <li>
-              <Link href="/about">About</Link>
-            </li>
-            <li>
-              <Link href="/cv">Cv</Link>
-            </li>
-            <li>
-              <Link href="mailto:jedidiahbasil@gmail.com">Contact</Link>
-            </li>
-          </ul>
-        </nav>
+        <ul>
+          <li>
+            <Link className="active" href="/">
+              Works
+            </Link>
+          </li>
+          <li>
+            <Link href="/about">About</Link>
+          </li>
+          <li>
+            <Link href="/cv">Cv</Link>
+          </li>
+          <li>
+            <Link href="mailto:jedidiahbasil@gmail.com">Contact</Link>
+          </li>
+        </ul>
+      </nav>
 
       <div className="about_container">
         <div className="about_img_container">
-          <img src="" alt="" />
+          <Image width={600} height={600} src="" alt="" />
           {/* <Image
           width={600}
           height={600}
@@ -153,7 +153,7 @@ function About() {
         <h1>Skills</h1>
         <div className="container">
           <div className="card">
-          <SiTypescript />
+            <SiTypescript />
             <h2>Typescript</h2>
           </div>
           <div className="card">
