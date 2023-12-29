@@ -195,31 +195,32 @@ function About() {
 
       <div className="footer_wrapper">
         <footer>
-          <h1>Have a Job for Me?</h1>
-          <p>I'm open to work and collaboration</p>
-          <div className="bottom_container">
-            <a href="mailto:jedidiahbasil@gmail.com">
-              <button>Let's talk</button>
-            </a>
-            <ul className="social_container">
-              <li>
-                <a target="_blank" href="https://github.com/JEDIBASIL">
-                  <i className="bi bi-github"></i>
-                  <span>GitHub</span>
-                </a>
-              </li>
-              <li>
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/in/jedidiah-oton-17a953225/"
-                >
-                  <i className="bi bi-linkedin"></i>
-                  <span>LinkedIn</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </footer>
+  <h1>Have a Job for Me?</h1>
+  <p>I&apos;m open to work and collaboration</p>
+  <div className="bottom_container">
+    <a href="mailto:jedidiahbasil@gmail.com">
+      <button>Let&apos;s talk</button>
+    </a>
+    <ul className="social_container">
+      <li>
+        <a target="_blank" href="https://github.com/JEDIBASIL">
+          <i className="bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/jedidiah-oton-17a953225/"
+        >
+          <i className="bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+
 
         <div className="footer_gradient">
           <div className="box"></div>

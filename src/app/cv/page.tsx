@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import "./style.css";
 import { motion } from "framer-motion";
@@ -64,8 +64,7 @@ function CvPage() {
             loading="lazy"
             src="https://www.canva.com/design/DAF4RkR9OMc/view?embed"
             allowFullScreen
-            allow="fullscreen"
-          ></iframe>
+          />
           {/* <iframe
             loading="lazy"
             src="https://www.canva.com/design/DAF4RVGATK4/view?embed"
@@ -79,10 +78,10 @@ function CvPage() {
       <div className="footer_wrapper">
         <footer>
           <h1>Have a Job for Me?</h1>
-          <p>I'm open to work and collaboration</p>
+          <p>I&apos;m open to work and collaboration</p>
           <div className="bottom_container">
             <a href="mailto:jedidiahbasil@gmail.com">
-              <button>Let's talk</button>
+              <button>Let&apos;s talk</button>
             </a>
             <ul className="social_container">
               <li>
