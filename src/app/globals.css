@@ -18,7 +18,7 @@
   --invert: 1;  
 }
 
-  /* :root {
+  :root {
     --bg: rgb(16, 14, 26);
     --card-bg: #141221;
     --txt1: white;
@@ -31,7 +31,7 @@
     --card-bd: #262831;
     --icon-bg:rgba(255, 255, 255, 0.091);
       --nav-txt:rgb(184, 184, 184);
-  } */
+  }
 
 * {
   margin: 0;

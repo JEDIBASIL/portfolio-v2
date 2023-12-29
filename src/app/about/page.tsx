@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./style.css";
 import { motion } from "framer-motion";
 import { SiTypescript } from "react-icons/si";
-import me from "../../assets/images/DSC_1502.jpg"
+// import me from "../../assets/images/mee.jpg"
 import {
   FaCss3,
   FaDatabase,
@@ -45,12 +45,13 @@ function About() {
 
       <div className="about_container">
         <div className="about_img_container">
-          <Image
+          <img src="" alt="" />
+          {/* <Image
           width={600}
           height={600}
             src={me}
             alt=""
-          />
+          /> */}
         </div>
         <div className="text">
           <motion.h1
