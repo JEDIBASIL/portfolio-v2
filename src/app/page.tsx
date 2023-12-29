@@ -43,10 +43,8 @@ export default function Home() {
             <div className="card">
               <RxRocket />
             </div>
-            <div className="card">
-            </div>
-            <div className="card">
-            </div>
+            <div className="card"></div>
+            <div className="card"></div>
             <div className="card">
               <RxStar />
             </div>
@@ -62,7 +60,7 @@ export default function Home() {
                 },
               }}
             >
-              Hi, I'm Jedidiah
+              Hi, I&apos;m Jedidiah
             </motion.h1>
 
             <motion.h1
@@ -89,7 +87,7 @@ export default function Home() {
                 },
               }}
             >
-              I'm a dedicated software engineer committed to creating
+              I&apos;m a dedicated software engineer committed to creating
               experiences
             </motion.p>
             <motion.a
@@ -104,7 +102,7 @@ export default function Home() {
               }}
               href="mailto:jedidiahbasil@gmail.com"
             >
-              <button>Let's talk</button>
+              <button>Let&apos;s talk</button>
             </motion.a>
           </div>
 
@@ -189,14 +187,14 @@ export default function Home() {
           className="project_section"
         >
           <div className="container">
-          <ProjectCard
+            <ProjectCard
               project_link={"https://sprinter-ten.vercel.app/"}
               img={img2}
               builds={["React js", "Next js"]}
               description="An online clothing store equipped for everyone"
               name="Sprinter"
             />
-          <ProjectCard
+            <ProjectCard
               project_link={"https://spax.vercel.app"}
               img={img1}
               builds={["React js", "Next js"]}
@@ -205,15 +203,14 @@ export default function Home() {
             />
           </div>
         </motion.div>
-        
 
         <div className="footer_wrapper">
           <footer>
             <h1>Have a Job for Me?</h1>
-            <p>I'm open to work and collaboration</p>
+            <p>I&apos;m open to work and collaboration</p>
             <div className="bottom_container">
               <a href="mailto:jedidiahbasil@gmail.com">
-                <button>Let's talk</button>
+                <button>Let&apos;s talk</button>
               </a>
               <ul className="social_container">
                 <li>

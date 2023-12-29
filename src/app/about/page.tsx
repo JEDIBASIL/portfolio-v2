@@ -64,7 +64,7 @@ function About() {
               },
             }}
           >
-            I'm a Developer working remotely from Nigeria
+            I&apos;m a Developer working remotely from Nigeria
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -77,8 +77,8 @@ function About() {
               },
             }}
           >
-            Over the past 5 years, I've worked in various tech fields, including
-            front-end development, backend development. I'm proud to have worn
+            Over the past 5 years, I&apos;ve worked in various tech fields, including
+            front-end development, backend development. I&apos;m proud to have worn
             many hats.
           </motion.p>
         </div>
