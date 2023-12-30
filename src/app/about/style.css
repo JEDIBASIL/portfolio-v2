@@ -40,7 +40,6 @@
   margin: 0px auto;
   margin-bottom: 60px;
   margin-top: 20px;
-
 }
 
 .experience .container {
@@ -51,6 +50,7 @@
   background-color: var(--card-bg);
   border-radius: 20px;
   border: 1px solid var(--card-bd);
+  background: linear-gradient(-15deg, #ececec0a, var(--card-bg));
 }
 
 .experience .container .card .heading {
@@ -103,10 +103,11 @@
   padding: 30px;
   border-radius: 20px;
   border: 1px solid var(--card-bd);
-  &:nth-child(2){
+  background: linear-gradient(-45deg, #ececec0a, var(--card-bg));
+  &:nth-child(2) {
     margin-top: 30px;
   }
-  &:nth-child(3){
+  &:nth-child(3) {
     margin-top: 60px;
   }
 }
@@ -163,7 +164,7 @@
   .service .container {
     grid-template-columns: repeat(2, 1fr);
   }
-  .service .container .card{
+  .service .container .card {
     margin: 0 !important;
   }
 }
@@ -180,16 +181,44 @@
 }
 
 @media screen and (max-width: 500px) {
-  .about_container .text h1,
+  .about_container .text h1 {
+    font-size: 37px;
+  }
   .service h1,
   .experience h1 {
-    font-size: 37px;
+    font-size: 30px;
+  }
+
+  .experience .container .card .heading h3,
+  .service .container .card h2  {
+    font-size: 20px;
+  }
+
+  .service .container .card p{
+    font-size: 16px;
+  }
+
+  .service .container .card i {
+    font-size: 30px;
+  }
+  .experience .container .card .heading h3{
+    font-size: 20px;
+  }
+
+  .experience .container .card .heading p{
+    font-size: 16px;
+  }
+  .experience .container .card .text{
+    font-size: 16px;
   }
 
   .about_container .about_img_container img {
     width: 100%;
     max-width: 280px;
     height: 320px;
+  }
+  .experience {
+    margin-bottom: 0;
   }
   .experience .container {
     padding: 30px 20px;

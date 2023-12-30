@@ -1,13 +1,11 @@
 "use client";
-import Image from "next/image";
 import img1 from "../assets/images/MacBook Pro 16_ - 1.png";
 import img2 from "../assets/images/MacBook Pro 14_ - 3.png";
-import rocketImg from "../assets/images/rocket (1).png";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 import Link from "next/link";
 import { ProjectCard } from "@/components";
-import { RxRocket, RxSketchLogo, RxStar } from "react-icons/rx";
+import { RxRocket, RxStar } from "react-icons/rx";
 
 export default function Home() {
   useEffect(() => {}, []);

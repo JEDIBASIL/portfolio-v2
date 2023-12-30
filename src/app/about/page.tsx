@@ -27,12 +27,12 @@ function About() {
       <nav className="blur">
         <ul>
           <li>
-            <Link className="active" href="/">
+            <Link href="/">
               Works
             </Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link className="active" href="/about">About</Link>
           </li>
           <li>
             <Link href="/cv">Cv</Link>
