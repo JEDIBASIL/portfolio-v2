@@ -23,9 +23,9 @@
 }
 
 .about_container .text h1 {
-  font-family: var(--font-acorn);
   font-size: 60px;
   color: var(--txt1);
+  font-weight: 800;
 }
 
 .about_container .text p {

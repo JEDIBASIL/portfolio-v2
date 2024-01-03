@@ -1,11 +1,12 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 @import url("https://fonts.cdnfonts.com/css/unlearned");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 :root {
   --bg:rgb(246, 246, 250);
   --card-bg: white;
-  --txt1: rgb(51, 52, 56);
+  --txt1: rgb(34, 35, 37);
   --txt2: rgb(90, 90, 90);
   --nav-bg: rgba(255, 255, 255, 0.813);
   --lin-bg1: rgba(127, 255, 212, 0.68);
@@ -18,7 +19,7 @@
   --invert: 1;  
 }
 
-  :root {
+  [data-theme="dark"] {
     --bg: rgb(16, 14, 26);
     --card-bg: #141221;
     --txt1: white;
@@ -39,6 +40,7 @@
   box-sizing: border-box;
   font-family: var(--font-gt);
   color: var(--txt2);
+  font-family: 'Rethink Sans', sans-serif !important;
 }
 
 body,
@@ -48,6 +50,8 @@ html {
   color: var(--txt1);
   position: relative;
   min-height: 100vh;
+  transition: 0.3s;
+
 }
 
 
@@ -72,6 +76,7 @@ nav {
   -webkit-backdrop-filter: blur(20px) saturate(1.7);
   /* background-color: var(--nav-bg); */
   z-index: 100;
+  transition: 0.3s;
 }
 
 
@@ -153,12 +158,14 @@ nav .theme-icon.dark .fa-moon {
   filter: blur(140px);
   top: 0;
   z-index: 0;
+  transition: 0.3s;
 }
 
 .background_linear div {
   width: 250px;
   height: 250px;
   border-radius: 50%;
+  transition: 0.3s;
 }
 
 .background_linear div:nth-child(1) {
@@ -205,6 +212,7 @@ nav .theme-icon.dark .fa-moon {
   font-family: var(--font-acorn);
   font-size: 75px;
   color: var(--txt1);
+  font-weight: 800;
   /* color: white; */
 }
 
@@ -549,7 +557,7 @@ footer {
 }
 
 footer h1 {
-  font-family: var(--font-acorn);
+  font-weight: 800;
   font-size: 50px;
   z-index: 3;
   position: relative;
@@ -685,11 +693,20 @@ footer .social_container i {
     margin-top: 20px;
   }
 
+  .include{
+    gap: 2px  ;
+  }
+
+  .include button{
+    font-size: 13px;
+    padding: 5px 8px;
+  }
+
   .project_section .container .card .text h2 {
-    font-size: 25px;
+    font-size: 22px;
   }
   .project_section .container .card .text p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .skills_section {
@@ -704,6 +721,10 @@ footer .social_container i {
   }
   .skills_section .container .card h2 {
     font-size: 20px;
+  }
+
+  .project_section .container .card .text{
+    padding-left: 15px;
   }
   footer p {
     font-size: 18px;
@@ -727,7 +748,7 @@ footer .social_container i {
 
   .hero_section{
     gap: 0;
-    padding-top: 100px;
+    padding-top: 110px;
   }
 
   .hero_section .bg svg{
@@ -735,16 +756,16 @@ footer .social_container i {
   }
 
   .hero_section .text h1{
-    font-size: 37px;
+    font-size: 33px;
   }
 
   footer h1 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
 
   .hero_section .text p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .project_section .container .card img {
