@@ -359,7 +359,8 @@ nav .theme-icon.dark .fa-moon {
   /* min-height: 400px; */
   background-color: var(--card-bg);
   backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px) saturate(1.7);  border-radius: 30px;
+  -webkit-backdrop-filter: blur(20px) saturate(1.7);  
+  border-radius: 30px;
   height: max-content;
   display: flex;
   align-items: center;
@@ -376,7 +377,8 @@ nav .theme-icon.dark .fa-moon {
 .include{
   margin-top: 15px;
   display: flex;
-  gap: 8px;
+  gap: 4px;
+  flex-wrap: wrap;
 }
 
 .include button{

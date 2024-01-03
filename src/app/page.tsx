@@ -1,6 +1,9 @@
 "use client";
 import img1 from "../assets/images/MacBook Pro 16_ - 1.png";
 import img2 from "../assets/images/MacBook Pro 14_ - 3.png";
+import img3 from "../assets/images/pape_pj.png";
+import img4 from "../assets/images/dashboard-1.png";
+
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 import Link from "next/link";
@@ -58,7 +61,7 @@ export default function Home() {
                 },
               }}
             >
-              Hi, I&apos;m Jedidiah
+              Hi, I&apos;m Jedidiah.
             </motion.h1>
 
             <motion.h1
@@ -72,7 +75,7 @@ export default function Home() {
                 },
               }}
             >
-              A Software Developer
+              Software Developer
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -186,18 +189,33 @@ export default function Home() {
         >
           <div className="container">
             <ProjectCard
-              project_link={"https://sprinter-ten.vercel.app/"}
-              img={img2}
-              builds={["React js", "Next js"]}
-              description="An online clothing store equipped for everyone"
-              name="Sprinter"
+              project_link={"https://github.com/JEDIBASIL/pape"}
+              img={img3}
+              builds={["Finance", "Mobile", "React native", "expo"]}
+              description="A mobile banking app for both iOS and Android platforms"
+              name="Pape"
             />
             <ProjectCard
               project_link={"https://spax.vercel.app"}
               img={img1}
-              builds={["React js", "Next js"]}
+              builds={["Workspace", "Web", "Expressjs", "Next js"]}
               description="Your daily note, reminder and collaborative workspace"
               name="Spax"
+            />
+            <ProjectCard
+              project_link={"https://sprinter-ten.vercel.app/"}
+              img={img2}
+              builds={["E-commerce", "Web", "Reactjs", "Next js"]}
+              description="An online clothing store equipped for everyone"
+              name="Sprinter"
+            />
+
+            <ProjectCard
+              project_link={"https://dashboard-1-tan.vercel.app"}
+              img={img4}
+              builds={["E-commerce", "Dashboard", "Next js"]}
+              description="Wonderful dashboard for e-commerce web apps"
+              name="Generic"
             />
           </div>
         </motion.div>
