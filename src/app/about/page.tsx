@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./style.css";
 import { motion } from "framer-motion";
 import { SiTypescript } from "react-icons/si";
-import me from "../../assets/images/me.png"
+import me from "../../assets/images/me.png";
 import {
   FaCss3,
   FaDatabase,
@@ -27,12 +27,12 @@ function About() {
       <nav className="blur">
         <ul>
           <li>
-            <Link href="/">
-              Works
-            </Link>
+            <Link href="/">Works</Link>
           </li>
           <li>
-            <Link className="active" href="/about">About</Link>
+            <Link className="active" href="/about">
+              About
+            </Link>
           </li>
           <li>
             <Link href="/cv">Cv</Link>
@@ -46,12 +46,7 @@ function About() {
       <div className="about_container">
         <div className="about_img_container">
           {/* <Image width={600} height={600} src="" alt="" /> */}
-          <Image
-          width={600}
-          height={600}
-            src={me}
-            alt=""
-          />
+          <Image width={600} height={600} src={me} alt="" />
         </div>
         <div className="text">
           <motion.h1
@@ -77,9 +72,9 @@ function About() {
               },
             }}
           >
-            Over the past 5 years, I&apos;ve worked in various tech fields, including
-            front-end development, backend development. I&apos;m proud to have worn
-            many hats.
+            Over the past 5 years, I&apos;ve worked in various tech fields,
+            including front-end development, backend development. I&apos;m proud
+            to have worn many hats.
           </motion.p>
         </div>
       </div>
@@ -125,12 +120,10 @@ function About() {
               <p>JULY 2018 - DECEMBER 2022</p>
             </div>
             <p className="text">
-              I participated in the Ayagigs fellowship program, focusing on the
-              backend track. Additionally I took on the role of a team lead
-              within my pod. At the conclusion of the program, our project was
-              recognized as the best among the participants. Throughout the
-              program, I worked closely with the Ayagigs frontend developers to
-              develop
+              As part of a team of developers, I contributed as a frontend
+              engineer to create a web application for medical diagnosis I
+              provided guidance to junior frontend engineers and focused on
+              instructing them in HTML5, CSS SaaS and React.js
             </p>
           </div>
 
@@ -140,11 +133,14 @@ function About() {
               <p>NOVEMBER 2022 - MAY 2023</p>
             </div>
             <p className="text">
-              As part of a team of developers, I contributed as a frontend
-              engineer to create a web application for medical diagnosis I
-              provided guidance to junior frontend engineers and focused on
-              instructing them in HTML5, CSS SaaS and React.js
+              I participated in the Ayagigs fellowship program, focusing on the
+              backend track. Additionally I took on the role of a team lead
+              within my pod. At the conclusion of the program, our project was
+              recognized as the best among the participants. Throughout the
+              program, I worked closely with the Ayagigs frontend developers to
+              develop
             </p>
+            
           </div>
         </div>
       </div>
@@ -195,32 +191,31 @@ function About() {
 
       <div className="footer_wrapper">
         <footer>
-  <h1>Have a Job for Me?</h1>
-  <p>I&apos;m open to work and collaboration</p>
-  <div className="bottom_container">
-    <a href="mailto:jedidiahbasil@gmail.com">
-      <button>Let&apos;s talk</button>
-    </a>
-    <ul className="social_container">
-      <li>
-        <a target="_blank" href="https://github.com/JEDIBASIL">
-          <i className="bi bi-github"></i>
-          <span>GitHub</span>
-        </a>
-      </li>
-      <li>
-        <a
-          target="_blank"
-          href="https://www.linkedin.com/in/jedidiah-oton-17a953225/"
-        >
-          <i className="bi bi-linkedin"></i>
-          <span>LinkedIn</span>
-        </a>
-      </li>
-    </ul>
-  </div>
-</footer>
-
+          <h1>Have a Job for Me?</h1>
+          <p>I&apos;m open to work and collaboration</p>
+          <div className="bottom_container">
+            <a href="mailto:jedidiahbasil@gmail.com">
+              <button>Let&apos;s talk</button>
+            </a>
+            <ul className="social_container">
+              <li>
+                <a target="_blank" href="https://github.com/JEDIBASIL">
+                  <i className="bi bi-github"></i>
+                  <span>GitHub</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/jedidiah-oton-17a953225/"
+                >
+                  <i className="bi bi-linkedin"></i>
+                  <span>LinkedIn</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
 
         <div className="footer_gradient">
           <div className="box"></div>
