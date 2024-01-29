@@ -2,7 +2,26 @@
 @import url("https://fonts.cdnfonts.com/css/unlearned");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@font-face {
+  font-family: "PolySans";
+  font-weight: 400;
+  src: url("https://db.onlinewebfonts.com/t/d8a4964eec2c4a693d6722609068043c.woff")
+    format("woff");
+}
 
+@font-face {
+  font-family: "PolySans";
+  font-weight: 700;
+  src: url("https://db.onlinewebfonts.com/t/cec88e5a4cf367c4620cd23c5a184439.woff")
+    format("woff");
+}
+
+@font-face {
+  font-family: "PolySans";
+  font-weight: 900;
+  src: url("https://db.onlinewebfonts.com/t/3e474a09226e19ab5228436820318a72.woff")
+    format("woff");
+}
 :root {
   --bg:rgb(246, 246, 250);
   --card-bg: white;
@@ -20,8 +39,8 @@
 }
 
   [data-theme="dark"] {
-    --bg: rgb(16, 14, 26);
-    --card-bg: #141221;
+    --bg: rgb(9, 8, 15);
+    --card-bg: rgba(9, 8, 15, 0.046);
     --txt1: white;
     --txt2: rgb(205, 205, 205);
     --nav-bg: rgba(28, 25, 45, 0.815);
@@ -40,8 +59,8 @@
   box-sizing: border-box;
   font-family: var(--font-gt);
   color: var(--txt2);
-  font-family: 'Rethink Sans', sans-serif !important;
-}
+  font-family: "PolySans";
+  font-weight: 400;}
 
 body,
 html {
@@ -51,7 +70,17 @@ html {
   position: relative;
   min-height: 100vh;
   transition: 0.3s;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: PolySans;
+  font-weight: 700 !important;
 }
 
 
@@ -150,16 +179,17 @@ nav .theme-icon.dark .fa-moon {
 
 
 .background_linear {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   display: flex;
   justify-content: center;
-  filter: blur(140px);
+  filter: blur(170px);
   top: 0;
   z-index: 0;
   transition: 0.3s;
 }
+
 
 .background_linear div {
   width: 250px;
@@ -241,7 +271,7 @@ nav .theme-icon.dark .fa-moon {
 
 
 .hero_section .bg{
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   display: grid;
@@ -256,7 +286,7 @@ nav .theme-icon.dark .fa-moon {
 }
 
 
-.hero_section .bg .card:nth-last-child(1){
+.hero_section .bg .card:nth-last-child(){
   display: flex;
   justify-content: flex-end;
 }
@@ -368,7 +398,7 @@ nav .theme-icon.dark .fa-moon {
   background-color: var(--card-bg);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px) saturate(1.7);  
-  border-radius: 30px;
+  border-radius: 20px;
   height: max-content;
   display: flex;
   align-items: center;
@@ -412,8 +442,8 @@ nav .theme-icon.dark .fa-moon {
   position: relative;
   z-index: 2;
   border: 1px solid var(--card-bd);
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   width: 100%;
   padding: 30px;
   padding-bottom: 20px;
